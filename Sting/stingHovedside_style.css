@@ -1,9 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color:rgb(189, 178, 178);
+    background-color:rgb(26, 20, 22);
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
+    
 
 
   }
@@ -81,6 +82,7 @@ body, html {
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
+    color: rgb(148, 132, 132);
 
 }
 
@@ -90,7 +92,7 @@ body, html {
 
 #img2Div{
     height: 40%;
-    background-image: url(Img/imagePaint.jpg);
+    background-image: url(Img/imgForest.jpg);
     /*https://pixabay.com/photos/mountain-colors-paint-colorful-art-6538890/*/
     background-position: bottom;
     background-repeat: no-repeat;
@@ -103,7 +105,8 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 5vh;
+    padding-top: 1vh;
+    color: rgb(148, 132, 132);
 
 
     margin: 0;
@@ -119,12 +122,13 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: rgb(148, 132, 132);
 }
 
 .companies{
 
     width: 25vw;
-    margin: 5vw;
+    margin: 1vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -136,4 +140,16 @@ body, html {
 
 .selskapNyeImg{
     width: 20vw;
+}
+
+footer{
+    color:rgb(148, 132, 132);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 20, 22);
+}
+.footerBoxes{
+    display: grid;
+    padding-left: 10vw;
 }
