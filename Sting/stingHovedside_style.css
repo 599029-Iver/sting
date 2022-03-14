@@ -1,19 +1,20 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color:cornsilk;
+    background-color:rgb(189, 178, 178);
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
+
 
   }
 
 #startsideBildeWrapper {
     background-image: url("Img/firstBack.jpg");
-    /*nhttps://pixabay.com/photos/adventure-balloon-hot-air-balloon-1840310/ */
+    /*https://pixabay.com/photos/mountains-snow-sunset-winter-6383482/ */
 
     height: 80%;
 
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -74,29 +75,18 @@ body, html {
     justify-content: center;
     padding: 0;
     margin: 0;
-    
-
-}
-.keyLinks{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    transition: 0.8s;
-    text-decoration: none;
-    color: black;
     margin-top:  5vh;
     margin-bottom: 5vh;
-    padding: 2vw;
-}
-.keyLinks:hover{
-    background-color:blanchedalmond;
-}
-
-#keyWords, p{
-    font-size: 150%;
-    margin: 0;
-    
+    font-size: 180%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
 
 }
+
+
+
+
 
 #img2Div{
     height: 40%;
@@ -105,6 +95,7 @@ body, html {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
 }
 
@@ -138,7 +129,7 @@ body, html {
     justify-content: center;
     flex-wrap: wrap;
     border-style: solid;
-    border-color: peru;
+    border-color: black;
     border-radius: 5%;
     background-color: white;
 }
