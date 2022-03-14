@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+
+  }
+
+#startsideBildeWrapper {
+    background-image: url("Img/firstBack.jpg");
+    /*nhttps://pixabay.com/photos/adventure-balloon-hot-air-balloon-1840310/ */
+
+    height: 80%;
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+#logo{
+    width: 10vw;
+    padding: 3vw;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 3vh; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+#navBox{
+    display: flex;
+    justify-content: end;
+    padding-right: 3vw;
+    padding-top: 3vh;
+}
+.navIcon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+#keyWords{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.keyLinks{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transition: 0.8s;
+    text-decoration: none;
+    color: black;
+    margin-top:  5vh;
+    margin-bottom: 5vh;
+    padding: 2vw;
+}
+.keyLinks:hover{
+    background-color:blanchedalmond;
+}
+
+#keyWords, p{
+    font-size: 150%;
+    margin: 0;
+    
+
+}
+
+#img2Div{
+    height: 40%;
+    background-image: url(Img/imagePaint.jpg);
+    /*https://pixabay.com/photos/mountain-colors-paint-colorful-art-6538890/*/
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#newAqu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5vh;
+
+
+    margin: 0;
+    font-size: 180%;
+}
+
+#newAqu, p{
+    display: flex;
+    justify-content: center;
+}
+
+#companiesWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.companies{
+
+    width: 25vw;
+    margin: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: peru;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.selskapNyeImg{
+    width: 20vw;
+}
