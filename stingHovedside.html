@@ -11,25 +11,26 @@
 <body>
     <div id="startsideBildeWrapper">
         <img src="Logo/Gradient logo - alternativ 1 (transparent).png" id="logo">
-        <div id="theSideNav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <img src="Logo/StingUtvikling Logo Hvit/StingUtvikling Logo StΓÇáende Hvit.png" class="selskapNyeImg" style="height: 20vh;width: auto;margin-left: 5vw;">
-            <a href="#">Portfolio</a>
-            <a href="#">Team</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
 
-        <div id="navBox">
-            <div onclick="openNav()">
-                <div class="navIcon"></div>
-                <div class="navIcon"></div>
-                <div class="navIcon"></div>
-            </div>
-        </div>
+        <div id="dropdownWrapper" style="float: right;">
+        
 
+            <div class="dropdown" style="float:right;">
+                <div class="dropbtn">
+                    <div class="navIcon"></div>
+                    <div class="navIcon"></div>
+                    <div class="navIcon"></div>
+                </div>
+                <div class="dropdown-content">
+                  <a href="#">Portfolio</a>
+                  <a href="#">Team</a>
+                  <a href="#">About</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+        </div>
         <div id="keyWords">
-            <p>"Sting Capital AS is a privately held investment firm actively seeking startups in their early stages with scalable ideas which can make the world a better place to live."</p>
+            <a>"Sting Capital AS is a privately held investment firm actively seeking startups in their early stages with scalable ideas which can make the world a better place to live."</a>
         </div>
 
     </div>
@@ -40,7 +41,7 @@
 
 
     <div id="newAqu">
-        <p>Newest aquisitions</p>
+        <a>Newest aquisitions</a>
         <div id="companiesWrapper">
             <!--Testselskaper legge inn via database og JS-->
 
@@ -66,9 +67,9 @@
         <img src="Logo/StingUtvikling Logo Hvit/StingUtvikling Logo StΓÇáende Hvit.png" id="footerLogo">
          <div id="leftFooter" class="footerBoxes"> 
             <h2>Contact us</h2>
-            <a>TLF : +47 987 65 432</a><br>
-            <a>PO Box : Stavanger olja</a><br>
-            <a>E-post : sting@stingmail.com</a><br>
+            <p>TLF : +47 987 65 432</p><br>
+            <p>PO Box : Stavanger olja</p><br>
+            <p>E-post : sting@stingmail.com</p><br>
 
          </div>
          <div id="rightFooter" class="footerBoxes">
